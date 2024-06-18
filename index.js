@@ -18,5 +18,5 @@ ecartserver.listen(port,()=>{
 })
 
 ecartserver.get('/',(req,res)=>{
-    console.log('ecart server started');
+    res.send('ecart server started');
 })
